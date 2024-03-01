@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <title>T-Shirt Price Calculator</title>
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section id="wrapper">
+        <div class="content">
+            <header>
+                <h1>👕 T-Shirt Price Calculator</h1>
+            </header>
+            <div class="getValues">
+                <div class="filterWrapper">
+                    <label for="quantity">Quantity</label>
+                    <input type="number" name="quantity" id="quantity" value="1">
+                </div>
+                <div class="filterWrapper">
+                    <label for="color">Color</label>
+                    <div class="colorWrapper">
+                        <span id="white" class="color selected">White</span>
+                        <span id="colored" class="color">Colored</span>
+                    </div>
+                </div>
+                <div class="filterWrapper">
+                    <label for="fabricQuality">Quality</label>
+                    <div class="fabricQualityWrapper">
+                        <span id="basic" class="quality selected">Basic (150g / m2)</span>
+                        <span id="high" class="quality">High (190g / m2)</span>
+                    </div>
+                </div>
+                <div class="filterWrapper">
+                    <label for="style">Style</label>
+                    <select name="style" id="style">
+                        <option value="Plain" class="style">Plain</option>
+                        <option value="Printed" class="style">Printed</option>
+                    </select>
+                </div>
+            </div>
+            <div class="productWrapper">
+                <div class="productImage">
+                    <img src="./images/white.jpg" alt="">
+                </div>
+                <div class="orderDetails">
+                    <h3>Order Details</h3>
+                    <div class="detail">
+                        <span>Product : </span>
+                        <span id="productDetail"></span>
+                    </div>
+                    <div class="detail">
+                        <span>Style : </span>
+                        <span id="styleDetail"></span>
+                    </div>
+                    <div class="detail">
+                        <span>Quality : </span>
+                        <span id="qualityDetail"></span>
+                    </div>
+                    <div class="detail">
+                        <span>Color : </span>
+                        <span id="colorDetail"></span>
+                    </div>
+                    <div class="detail">
+                        <span>Quantity : </span>
+                        <span id="quantityDetail"></span>
+                    </div>
+                    <div class="finalDetail">
+                        <div class="totalDetail">
+                            <span id="totalHeading">Total</span>
+                            <span id="total"></span>
+                        </div>
+                        <button id="completeOrderButton">Complete Order</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="script.js"></script>
+</body>
+</html>
