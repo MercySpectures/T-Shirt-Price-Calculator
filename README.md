@@ -22,7 +22,7 @@ To run the T-shirt price calculator locally, simply clone the repository and ope
 
 ```bash
 git clone https://github.com/MercySpectures/T-Shirt-Price-Calculator.git
-cd T-Shirt-Price-Calculator
+cd tShirtPriceCalculato
 ```
 
 ## Contributing
