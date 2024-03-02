@@ -56,7 +56,6 @@ header h1{
 }
 
 .filterWrapper{
-    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: start;
@@ -237,13 +236,14 @@ span.selected{
         padding: 1rem;
     }
     .getValues{
+        width:100%;
         gap: 0.8rem;
         padding: 1rem;
         flex-direction: column;
         align-items: center;
     }
     .filterWrapper{
-        width: 60%;
+        width: 80%;
     }
     .fabricQualityWrapper{
         display: flex;
