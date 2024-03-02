@@ -56,6 +56,7 @@ header h1{
 }
 
 .filterWrapper{
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: start;
