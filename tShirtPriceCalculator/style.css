@@ -88,6 +88,7 @@ header h1{
 }
 
 .filterWrapper input, select{
+    width: 100%;
     padding: 0.2rem 0.4rem;
     border-radius: 0.2rem;
     font-weight: 400;
